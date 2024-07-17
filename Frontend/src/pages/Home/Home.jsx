@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import Students from "../../components/Students";
 
 const Home = () => {
     return (
         <>
-            <h1> Ich bin die Start Seite</h1>
+            <Students />
 
             <Link to={"/kontakt"}>Kontaktieren Sie uns!</Link>
         </>
